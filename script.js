@@ -1,0 +1,1 @@
+const d=document.getElementById('display');function add(v){d.value+=v}function clr(){d.value=''}function delc(){d.value=d.value.slice(0,-1)}function eq(){try{d.value=eval(d.value)}catch{d.value='Error'}}
